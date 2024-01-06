@@ -15,7 +15,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://github.com/yourusername"
+          href="https://github.com/TerminalGambit"
           target="_blank"
           rel="noopener noreferrer"
         >
