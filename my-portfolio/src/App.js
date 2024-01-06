@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Footer from './components/Footer'; // Assume you create this
+import Footer from './components/Footer';
+import logo from './logo.svg';
+
 
 function App() {
   return (
