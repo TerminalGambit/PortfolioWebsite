@@ -1,27 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer'; // Assume you create this
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
       <Header name="Jack" />
+
+      <main>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to my portfolio! Explore my projects and learn more about me.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/yourusername"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Visit my GitHub
         </a>
-      </header>
+      </main>
+
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
