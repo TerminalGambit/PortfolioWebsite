@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
@@ -11,11 +11,11 @@ const App = () => {
   return (
     <>
       <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         {/* Define other Routes similarly */}
-      </Switch>
+      </Routes>
       <Footer />
     </>
   );
